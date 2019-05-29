@@ -66,14 +66,13 @@ header img:nth-last-of-type(1) {
 @media (min-width:360px) {}
 
 @media (orientation: portrait) and (min-width: 360px) {
-    header h1 {
-        font-size: 2.4rem;
-    }
-
-
     header h2 {
         font-size: 2.4rem;
         font-weight: normal;
+    }
+
+    header .bigh2 {
+        font-weight: bold;
     }
 }
 
@@ -104,24 +103,19 @@ header img:nth-last-of-type(1) {
 }
 
 @media (orientation: portrait) and (min-width: 768px) {
-    header h1 {
-        font-size: 3.4rem;
-    }
-
     header h2 {
         font-size: 3.4rem;
     }
 }
 
 @media (orientation: landscape) and (min-width: 640px) {
-    header h1 {
-        font-size: 2rem;
-    }
-
-
     header h2 {
         font-size: 2rem;
         font-weight: normal;
+    }
+
+    header .bigh2 {
+        font-weight: bold;
     }
 
 
@@ -143,10 +137,6 @@ header img:nth-last-of-type(1) {
 @media (orientation: landscape) and (min-width: 1024px) {
     header div.welcome {
         top: 7%;
-    }
-
-    header h1 {
-        font-size: 3.4rem;
     }
 
     header h2 {
@@ -286,14 +276,14 @@ div.bg {
     align-items: center;
 }
 
-section h1 {
+section h2 {
     font-family: 'Saira Condensed', sans-serif;
     font-size: 5rem;
     font-weight: 300;
     color: black
 }
 
-section.s1 h1 {
+section.s1 h2 {
     color: #ddd;
 }
 
@@ -422,7 +412,7 @@ section p {
         width: 100%;
     }
 
-    .wrapper h1 {
+    .wrapper h2 {
         margin-left: 95px;
     }
 
@@ -436,7 +426,7 @@ section p {
 }
 
 @media (orientation: portrait) and (min-width: 800px) {
-    .wrapper h1 {
+    .wrapper h2 {
         margin-left: 100px;
     }
 
@@ -450,7 +440,7 @@ section p {
         width: 100%;
     }
 
-    .wrapper h1 {
+    .wrapper h2 {
         margin-left: 85px;
     }
 
@@ -464,13 +454,13 @@ section p {
 }
 
 @media (orientation: landscape) and (min-width: 667px) {
-    .wrapper h1 {
+    .wrapper h2 {
         margin-left: 85px;
     }
 }
 
 @media (orientation: landscape) and (min-width: 731px) {
-    .wrapper h1 {
+    .wrapper h2 {
         margin-left: 95px;
     }
 
@@ -484,7 +474,7 @@ section p {
 }
 
 @media (orientation: landscape) and (min-width: 812px) {
-    .wrapper h1 {
+    .wrapper h2 {
         margin-left: 100px;
     }
 
@@ -494,7 +484,7 @@ section p {
 }
 
 @media (orientation: landscape) and (min-width: 1024px) {
-    .wrapper h1 {
+    .wrapper h2 {
         font-size: 8rem;
         margin-left: 70px;
     }
@@ -522,7 +512,7 @@ section p {
 }
 
 @media (orientation: landscape) and (min-width: 1280px) {
-    .wrapper h1 {
+    .wrapper h2 {
         margin-left: 85px;
     }
 
@@ -542,7 +532,7 @@ section p {
 }
 
 @media (orientation: landscape) and (min-width: 1366px) {
-    .wrapper h1 {
+    .wrapper h2 {
         margin-left: 88px;
     }
 
@@ -562,7 +552,7 @@ section p {
 }
 
 @media (orientation: landscape) and (min-width: 1600px) {
-    .wrapper h1 {
+    .wrapper h2 {
         margin-left: 195px;
     }
 
@@ -582,7 +572,7 @@ section p {
 }
 
 @media (orientation: landscape) and (min-width: 1920px) {
-    .wrapper h1 {
+    .wrapper h2 {
         margin-left: 230px;
     }
 
